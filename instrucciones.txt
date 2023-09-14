@@ -5,7 +5,7 @@ Instrucciones para configurar y ejecutar el proyecto
    - `npm install -g @angular/cli`.
 
 Configuración del proyecto Django (API):
-1. Clona el repositorio de GitHub del proyecto "Task Manager" desde https://github.com/dzamarin/task-manager.git.
+1. Clona el repositorio de GitHub del proyecto "Task Manager" desde https://github.com/DankoZN/task-manager.git.
 2. Abre una terminal y navega hasta la carpeta del proyecto:
    - `cd task-manager-project`.
 3. Crea un entorno virtual para el proyecto (opcional):
