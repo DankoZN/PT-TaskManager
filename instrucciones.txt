@@ -1,0 +1,38 @@
+Instrucciones para configurar y ejecutar el proyecto
+
+1. Asegúrate de tener Python 3.x instalado en tu computador.
+2. Instala Angular
+   - `npm install -g @angular/cli`.
+
+Configuración del proyecto Django (API):
+1. Clona el repositorio de GitHub del proyecto "Task Manager" desde https://github.com/dzamarin/task-manager.git.
+2. Abre una terminal y navega hasta la carpeta del proyecto:
+   - `cd task-manager-project`.
+3. Crea un entorno virtual para el proyecto (opcional):
+   - `python -m venv task_manager_env`.
+4. Activa el entorno virtual:
+   - Windows: `task_manager_env\Scripts\activate`.
+   -Linux: `source task_manager_env/bin/activate`.
+5. Instala las dependencias del proyecto Django:
+   - `pip install -r requirements.txt`.
+6. Realiza las migraciones de la base de datos:
+   - `python manage.py makemigrations`.
+   - `python manage.py migrate`.
+7. Crea un superusuario para acceder al panel de administración de Django:
+   - `python manage.py createsuperuser`.
+8. Ejecuta el servidor de desarrollo de Django:
+   - `python manage.py runserver`.
+
+Configuración del proyecto Angular (Frontend):
+1. Abre una terminal y navega hasta la carpeta del proyecto Angular:
+   - `cd task-manager-frontend`.
+2. Instala las dependencias del proyecto Angular:
+   - `npm install`.
+3. Ejecuta la aplicación Angular:
+   - `ng serve`.
+
+Acceso a la aplicación:
+1. Abre un navegador web y visita la URL http://localhost:4200 para acceder a la aplicación Angular.
+2. Para acceder al panel de administración de Django, visita la URL http://localhost:8000/admin y utiliza las credenciales del superusuario que creaste.
+
+
